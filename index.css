@@ -20,6 +20,8 @@ body {
     background-color: rgb(250, 192, 0);
 }
 
+
+
 a {
     text-decoration: none;
     color: black;
@@ -38,3 +40,23 @@ a:hover {
     font-size: 30px;
 }
 
+@media (max-width: 900px ) {
+    .header-menu-sety {
+        display: none;
+    }
+}
+
+@media (max-width: 650px ) {
+    .header-menu-news {
+        display: none;
+    }
+}
+
+@media (max-width: 500px ) {
+    .header-menu-progehx {
+        display: none;
+    }
+    .header-menu-main {
+        display: none;
+    }
+}
