@@ -1,31 +1,10 @@
-var articles = [
+var pages = [
     {
-        title: 'Article 1',
-        link: 'test1.html'
-    },
+        title: 'home',
+        link: 'index.html'
+    }, 
     {
-        title: 'Article 2',
-        link: 'test2.html'
-    },
-    {
-        title: 'Article 3',
-        link: 'test3.html'
+        title: 'projects',
+        link: 'viev.html'
     }
 ]
-
-var blog = '<ul>', article, amountArticles = articles.length
-
-for (article = 0; article < amountArticles; article++) {
-    blog += `
-    <lu> 
-        <a href= "articles/${articles[article].link}" class="article">
-            <h3>${articles[article].title}</h3>
-        </a>
-    </lu>`
-}
-
-blog += '</ul>'
-
-var root = document.querySelector('#root')
-
-root.innerHTML = blog
