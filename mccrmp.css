@@ -9,6 +9,9 @@ body {
     background-size: 100%;
 }
 
+#aaa {
+    text-decoration: none;
+}
 
 .block-1 {
     margin-top: 100px;
@@ -25,3 +28,35 @@ body {
     background-color: rgba(218, 218, 218, 0.336);
     padding: 20px;
     border-radius: 30px;
+}
+
+.button-1 {
+    background-color: white;
+    margin-top: 40px;
+    height: 50px;
+    width: 300px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px;
+    transition-property: transform background-color box-shadow;   
+     transition-duration: 0.5s;
+    transition-delay: .1s;
+}
+
+
+.button-1:hover {
+    background-color: rgb(231, 231, 231);
+    box-shadow:0 1px 40px rgb(158, 156, 156);
+    color: black;
+    transform: scale(1.2);
+}
+
+
+
+.block-card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
