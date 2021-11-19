@@ -1,6 +1,7 @@
 body {
     background-image: url(/images/fone.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 
@@ -40,4 +41,27 @@ body {
 .home:hover {
     background-color: rgb(255, 209, 57);
     box-shadow:0 1px 40px rgb(255, 209, 57);    
+}
+
+#aaa {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 792px ) {
+    .gif img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 506px ) {
+    .gif img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 304px ) {
+    .gif img {
+        width: 100px;
+    }
 }
