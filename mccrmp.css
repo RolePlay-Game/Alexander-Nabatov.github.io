@@ -6,7 +6,58 @@
 body {
     background-image: url(/images/m-fone.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:110%;
+    
+}
+
+@media (max-width: 1259px ) {
+    body {
+        background-size: 130%;
+    }
+}
+
+@media (max-width: 1123px ) {
+    body {
+        background-size: 140%;
+    }
+}
+
+@media (max-width: 1030px ) {
+    body {
+        background-size: 150%;
+    }
+}
+
+@media (max-width: 947px ) {
+    body {
+        background-size: 170%;
+    }
+}
+
+@media (max-width: 992px ) {
+    .col-lg-6 {
+        margin: 20px;
+    }
+    body {
+        background-size: 250%;
+    }
+}
+
+@media (max-width: 747px ) {
+    body {
+        background-size: 300%;
+        
+    }
+}
+
+@media (max-width: 611px ) {
+    body {
+        background-size: 400%;
+    }
+
+    .card-1 img {
+        height: 100px;
+    }
 }
 
 #aaa {
@@ -15,7 +66,7 @@ body {
 
 .block-1 {
     margin-top: 100px;
-    
+    margin-bottom: 50px;
 }
 
 .block-1 img {

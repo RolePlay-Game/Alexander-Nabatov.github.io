@@ -37,6 +37,9 @@ body {
     box-shadow:0 1px 40px rgb(250, 192, 0);
 }
 
+.buttons {
+    margin-top: 20px;
+}
 
 .home:hover {
     background-color: rgb(255, 209, 57);
@@ -51,6 +54,9 @@ body {
 @media (max-width: 792px ) {
     .gif img {
         width: 500px;
+    }
+    body {
+        background-size: 500%;
     }
 }
 
